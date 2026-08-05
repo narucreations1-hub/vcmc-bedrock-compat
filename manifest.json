@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-05T04:16:57Z",
+  "updatedAt": "2026-08-05T20:25:40Z",
   "bridge": {
     "version": "0.2.0",
     "protocol": 1,
@@ -9,7 +9,7 @@
   },
   "gameVersions": {
     "1.26.33.01": {
-      "enabled": true,
+      "enabled": false,
       "channel": "experimental",
       "mapping": {
         "url": "https://raw.githubusercontent.com/narucreations1-hub/vcmc-bedrock-compat/main/mappings/windows-x64/1.26.33.01.json",
