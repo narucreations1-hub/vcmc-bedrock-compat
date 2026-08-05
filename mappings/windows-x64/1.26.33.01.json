@@ -7,14 +7,49 @@
   "capabilities": {
     "bridgeHandshake": true,
     "heartbeat": true,
-    "localPlayerIdentity": false,
-    "localPlayerPosition": false,
-    "dimension": false,
-    "serverOrRealm": false
+    "localPlayerIdentity": true,
+    "localPlayerPosition": true,
+    "localPlayerRotation": true,
+    "dimension": true,
+    "worldIdentity": true,
+    "serverOrRealm": true
   },
-  "resolver": {
-    "mode": "none",
-    "signatures": {}
+  "patterns": {
+    "platformGameCore": "4C 89 3D ? ? ? ? 4D 85 FF"
   },
-  "notes": "Initial LeviLauncher delivery and authenticated local IPC proof. No game memory hooks are enabled."
+  "offsets": {
+    "platformGameCoreOwner": 8,
+    "platformGameCoreMinecraftGame": 56,
+    "minecraftGameXuid": 592,
+    "minecraftGameClientInstances": 2312,
+    "clientMapHead": 0,
+    "clientMapSize": 8,
+    "clientMapNodeLeft": 0,
+    "clientMapNodeParent": 8,
+    "clientMapNodeRight": 16,
+    "clientMapNodeIsNil": 25,
+    "clientMapNodeKey": 32,
+    "clientMapNodeValue": 40,
+    "clientInstanceMinecraft": 424,
+    "clientInstancePacketSender": 456,
+    "clientInstanceLocalPlayerVtableIndex": 31,
+    "minecraftGameSession": 184,
+    "gameSessionLevel": 64,
+    "levelData": 144,
+    "levelDataWorldName": 680,
+    "levelInternalName": 656,
+    "playerName": 3008,
+    "actorDimension": 456,
+    "actorStateVector": 536,
+    "actorRotation": 552,
+    "packetSenderNetworkSystem": 32,
+    "networkSystemRemoteConnector": 240,
+    "remoteConnectorRakNet": 112,
+    "rakNetIpAddress": 1024,
+    "rakNetDns": 1056,
+    "rakNetPort": 1124,
+    "rakNetFeaturedServer": 1288,
+    "dimensionName": 32
+  },
+  "notes": "Read-only local telemetry validated with LeviLauncher. Unknown or ambiguous signatures fail closed."
 }

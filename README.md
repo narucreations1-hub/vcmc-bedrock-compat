@@ -13,7 +13,8 @@ This repository is deliberately separate from VCMC's voice engine:
 - unknown versions fail closed;
 - a version can be disabled remotely with `enabled: false`.
 
-The current `0.1.0` bridge is a delivery/IPC proof only. It reports bridge and
-game versions to the local VCMC app and keeps an authenticated heartbeat. Game
-telemetry capabilities remain disabled until their mappings are implemented and
-validated.
+Bridge `0.2.0` adds read-only telemetry for Minecraft `1.26.33.01`: local player
+identity, position and rotation, dimension, world identity, and remote server
+metadata. Values are sent only to the local VCMC app through an authenticated
+loopback connection. The bridge does not patch game code and never transports
+audio.
