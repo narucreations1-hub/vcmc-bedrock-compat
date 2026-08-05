@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-04T00:00:00Z",
+  "bridge": {
+    "version": "0.1.0",
+    "protocol": 1,
+    "downloadUrl": "https://github.com/narucreations1-hub/vcmc-bedrock-compat/releases/download/bridge-v0.1.0/VCMCBridge.dll",
+    "sha256": "62ad39dd4b5868b8fb913c0163c46c09311c384f06cdb21c243f4c17961d30a7"
+  },
+  "gameVersions": {
+    "1.26.33.01": {
+      "enabled": true,
+      "channel": "experimental",
+      "mapping": {
+        "url": "https://raw.githubusercontent.com/narucreations1-hub/vcmc-bedrock-compat/main/mappings/windows-x64/1.26.33.01.json",
+        "sha256": "e70e9c39794ff2cfc032ad56632abe20878ad0f93655a5b6ccefc13a57658387"
+      }
+    }
+  }
+}
