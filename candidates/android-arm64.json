@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "adapter": "bedrock.android-arm64",
+  "updatedAt": "2026-08-09T07:06:22.000Z",
+  "source": {
+    "repository": "https://github.com/QYCottage/BedrockTools",
+    "commit": "ba70a85d5a968b392386eab2933c504f011f70d9",
+    "file": "include/bedrocktools/sdk/offsets/World.hpp",
+    "rawUrl": "https://raw.githubusercontent.com/QYCottage/BedrockTools/ba70a85d5a968b392386eab2933c504f011f70d9/include/bedrocktools/sdk/offsets/World.hpp",
+    "license": "GPL-3.0",
+    "usage": "Discovery input only; VCMC must certify the layout at runtime before emitting telemetry."
+  },
+  "candidates": [
+    {
+      "id": "bedrocktools-ba70a85d5a96",
+      "offsets": {
+        "clientGraphScanBytes": 6144,
+        "clientGraphScanDepth": 3,
+        "playerName": 2824,
+        "actorDimension": 448,
+        "actorStateVector": 520,
+        "actorRotation": 536
+      }
+    }
+  ]
+}

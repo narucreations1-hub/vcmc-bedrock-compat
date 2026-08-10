@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 2,
+  "adapter": "bedrock.android-arm64",
+  "bridgeVersion": "0.6.0",
+  "gameVersion": "1.26.32.2",
+  "enabled": true,
+  "channel": "stable",
+  "resolver": "rtti-client-graph-v1",
+  "binaries": [
+    {
+      "versionName": "1.26.32.2",
+      "versionCode": 972603202,
+      "abi": "arm64-v8a",
+      "librarySha256": "516bcf4efc5a6dce2426972cd12403adcb5cbd19848267531ba975a2ed35e56e",
+      "libraryBuildId": "d363a198b407a5a415206288e3c4e806831b517a",
+      "librarySize": 349243744
+    }
+  ],
+  "source": {
+    "description": "VCMC Android profile verified on the test device",
+    "librarySha256": "516bcf4efc5a6dce2426972cd12403adcb5cbd19848267531ba975a2ed35e56e",
+    "libraryBuildId": "d363a198b407a5a415206288e3c4e806831b517a"
+  },
+  "offsets": {
+    "clientGraphScanBytes": 6144,
+    "clientGraphScanDepth": 3,
+    "playerName": 2824,
+    "actorDimension": 448,
+    "actorStateVector": 520,
+    "actorRotation": 536
+  }
+}
