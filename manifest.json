@@ -1,11 +1,25 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-05T20:25:40Z",
+  "updatedAt": "2026-08-09T07:06:22.000Z",
   "bridge": {
     "version": "0.2.0",
     "protocol": 1,
     "downloadUrl": "https://github.com/narucreations1-hub/vcmc-bedrock-compat/releases/download/bridge-v0.2.0/VCMCBridge.dll",
     "sha256": "56d0ca169906a24efc1fa4dfc79f0ac5e56c29fd5c86181f14bb7e9f5444d32d"
+  },
+  "adapters": {
+    "bedrock.android-arm64": {
+      "version": "0.6.0",
+      "protocol": 1,
+      "delivery": "bundled"
+    }
+  },
+  "candidateFeeds": {
+    "bedrock.android-arm64": {
+      "version": "bedrocktools-ba70a85d5a96",
+      "url": "https://raw.githubusercontent.com/narucreations1-hub/vcmc-bedrock-compat/main/candidates/android-arm64.json",
+      "sha256": "5f3450e8bbe71ab7d537c100541026c26b67d18cc3939b3606f3dc1087f678bc"
+    }
   },
   "gameVersions": {
     "1.26.33.01": {
@@ -14,6 +28,50 @@
       "mapping": {
         "url": "https://raw.githubusercontent.com/narucreations1-hub/vcmc-bedrock-compat/main/mappings/windows-x64/1.26.33.01.json",
         "sha256": "70c783ee48bdb926f463bbb5294fde60926705501b3a60cc768e8ba3115faedc"
+      }
+    },
+    "1.26.32.2": {
+      "adapters": {
+        "bedrock.android-arm64": {
+          "enabled": true,
+          "channel": "stable",
+          "binaries": [
+            {
+              "versionName": "1.26.32.2",
+              "versionCode": 972603202,
+              "abi": "arm64-v8a",
+              "librarySha256": "516bcf4efc5a6dce2426972cd12403adcb5cbd19848267531ba975a2ed35e56e",
+              "libraryBuildId": "d363a198b407a5a415206288e3c4e806831b517a",
+              "librarySize": 349243744
+            }
+          ],
+          "mapping": {
+            "url": "https://raw.githubusercontent.com/narucreations1-hub/vcmc-bedrock-compat/main/mappings/android-arm64/1.26.32.2.json",
+            "sha256": "00542c819f44583806f46576e530c211b7e4e62c7135c306643efbd0fa2e2b18"
+          }
+        }
+      }
+    },
+    "1.26.40.31": {
+      "adapters": {
+        "bedrock.android-arm64": {
+          "enabled": true,
+          "channel": "stable",
+          "binaries": [
+            {
+              "versionName": "1.26.40.31",
+              "versionCode": 972604031,
+              "abi": "arm64-v8a",
+              "librarySha256": "eb4ccfb20635a91bfef73d933feda09bf4fbc24162cfdcc9b5b94b8c7d91e5d1",
+              "libraryBuildId": "223c76e79d3f12cabc4a17560c6d86d557a9d87b",
+              "librarySize": 339724640
+            }
+          ],
+          "mapping": {
+            "url": "https://raw.githubusercontent.com/narucreations1-hub/vcmc-bedrock-compat/main/mappings/android-arm64/1.26.40.31.json",
+            "sha256": "549e0eb1b78cce3479e3e0f1a32ea160bceef1f2d6a3b62cb1193fb319d44f44"
+          }
+        }
       }
     }
   }
