@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-31T13:46:01.000Z",
+  "updatedAt": "2026-10-27T19:15:39.000Z",
   "bridge": {
     "version": "0.2.0",
     "protocol": 1,
@@ -16,9 +16,9 @@
   },
   "candidateFeeds": {
     "bedrock.android-arm64": {
-      "version": "bedrocktools-7067006c06a6",
+      "version": "bedrocktools-3de9a7d641c8",
       "url": "https://raw.githubusercontent.com/narucreations1-hub/vcmc-bedrock-compat/main/candidates/android-arm64.json",
-      "sha256": "ec2785749a661fedaa77a30f2d7d7613094d74021919af6d19c53569b723a6f5"
+      "sha256": "7c3ad3a8f83bd808f03ad8faf0464c9c1ed37b71a3435c0162236b1b578e95c9"
     }
   },
   "gameVersions": {
